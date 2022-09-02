@@ -1,0 +1,200 @@
+html {
+    scroll-behavior: smooth; /* Rolagem devagar */
+}
+
+/*Corpo do site*/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Fundo da Barra de Navegação*/
+.navbar {
+    width: 100%;  /* Largura - A tela toda */
+    height: 80px; /* Altura */
+}
+
+/*Imagem da Logo*/
+.logo {
+    width: 90px;
+    height: 70px;   
+}
+
+/*Barra de Navegação*/
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(15, 15, 15)
+}
+
+#menu-h ul img{
+    margin-bottom: 0;
+}
+
+#menu-h ul {
+    width: 800px;
+    max-width: 100%;
+}
+
+#menu-h ul li {
+    display: inline; /* menu ao meio */
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition:.7s; /* efeito do menu */
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(131, 121, 93); /* Cor quando o mouse passa por cima */
+}
+
+/* Imagem do começo */
+.container-inicio img{
+    width: 100%;
+}
+
+/* Banner do meio */
+.banner img{
+    width: 100%;
+}
+
+/* PRODUTOS */
+.produto{
+    display: flex;
+    border-top: none;
+    padding-top: 0;
+}
+
+.prod{
+   flex: 1; /*distribui as 3 divs dentro do conteiner com larguras iguais*/
+   margin: 5px; /*coloca uma margem entre elas*/
+   text-align: center;
+}
+
+.prod img{
+   /* max-width: 100%; */
+   width: 20em;
+   max-width: 40%;
+}
+
+#colares {
+    background-color:rgb(245, 239, 239)
+}
+
+/* FORMULÁRIO */
+.form { /*caixa*/
+    position: center;
+    background: #E6E6FA;
+    max-width: 500px;
+    margin: 60px auto 20px;
+    padding: 65px;
+    font-size: 30px;
+    transition-duration: 0.5s;
+}
+
+.form input { /*dentro da caixa */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    margin: 0 0 10px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+.button1 {
+    background-color: rgb(15, 15, 15); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #060706;
+}
+  
+.button1:hover {
+    background-color: #837b56;
+    color: white;
+}
+
+/* RODAPÉ */
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
+    width: 100%;
+    text-align:left;
+    line-height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.busca{
+    position: center;
+    background: #E6E6FA;
+    max-width: 600px;
+    margin: 60px auto 20px;
+    padding: 65px;
+    font-size: 28px;
+    transition-duration: 0.5s;
+}
+
+.perfil{
+    /* width: 20em; */
+    /* width: 60%;
+    max-width: 60%; */
+    object-fit: cover;
+    width:230px;
+    height:230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+/* ERROS DA QUERY */
+.erro{    
+    width: 60%;
+    padding: auto;
+}
+
+.erro h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.erro h2{
+    text-align: center;
+}
+
+.erro button{
+    width: 200px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
