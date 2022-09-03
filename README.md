@@ -1,4 +1,4 @@
-# Site-de-Vendas-utilizando-phpMyAdmin
+# Site de Vendas utilizando phpMyAdmin
 Site de vendas criado para a disciplina de Desenvolvimento WEB II da UNISUAM, utilizando o software phpMyAdmin. 
 
 Projeto interdisciplinar desenvolvido com as linguagens html, php, javascript e MySQLi.  
